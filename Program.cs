@@ -3,7 +3,7 @@
     Made so I can better understand the C# language.
 */
 
-using HigherLowerGame;
+using HigherLowerGame; // Namespace containing the class of the game
 
 namespace HigherLower
 {
