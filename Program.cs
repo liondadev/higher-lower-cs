@@ -3,13 +3,20 @@
     Made so I can better understand the C# language.
 */
 
+using HigherLowerGame;
+
 namespace HigherLower
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Started Game!");
+            HLGame game = new HigherLowerGame.HLGame(544);
+
+            while (!game.GameStep())
+            {}
+
+            Console.WriteLine("You won!");
         }
     }
 }
